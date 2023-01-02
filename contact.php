@@ -35,12 +35,15 @@
     </nav>
 
 <?php
-$gender = $_POST['firstname'];
-$size = $_POST['email'];
-$color = $_POST['message'];
+$firstname = $_POST['firstname'];
+$email = $_POST['email'];
+$message = $_POST['message'];
+
+$response = "please wait for my response";
 
 echo"<title>Form Results</title>";
-echo "";
+echo " $firstname your message has been succesfully sent to our support team </br>";
+echo " $response";
 echo "<h2> Programmed by: Uwaguosa Aluyi-Osa </h2>";
 
 ?>
