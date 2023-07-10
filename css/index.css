@@ -1,0 +1,100 @@
+
+
+#video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#video-container video {
+ position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.overlay {
+  position: absolute;
+  top: 23%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  
+}
+nav {
+  position: absolute;
+  top: px;
+  z-index: 1;
+  font-size:25px;
+  
+  /* Additional styling for your navigation bar */
+}
+
+.overlay p {
+	font-size:25px;
+	  z-index: 1;
+}
+.overlay h1 {
+	margin-left:20%;
+  margin-right: 20%;
+  float: right;
+  font-size:85px;
+ 
+  /* Additional styles for the centered paragraph */
+}
+@media (max-width: 1000px) {
+  /* CSS rules for small screens */
+  .overlay h1 {
+	margin-left:20%;
+  float: right;
+  font-size:50px;
+}
+}
+@media (max-width: 680px) {
+  /* CSS rules for small screens */
+  .overlay h1 {
+	margin-left:20%;
+  float: right;
+  font-size:25px;
+}
+
+.overlay {
+  position: absolute;
+  top: 15%;
+}
+.overlay p {
+	font-size:18px;
+	  z-index: 4;
+}
+}
+
+ 
+
+ footer {  
+  position:fixed;
+  bottom:0;
+  font-family: 'Archivo Narrow';
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 150px;
+  background-color: black;
+  min-width: 100%;
+  height:100px;
+}
+
+footer p{width: 100%;
+  margin-top: 40px;
+color: rgb(64, 95, 197);}
+
+.logo strong {
+  color: #7d2ae8;
+  font-size: 35px;
+}
